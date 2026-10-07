@@ -30,3 +30,13 @@ GUI requires termux-x11 or VNC.
 
 ## License
 Based on NSA Ghidra (Apache 2.0). See LICENSE and NOTICE inside the archive.
+
+Unofficial Termux/Android ARM64 build of Ghidra 11.0 DEV.
+
+Compiled locally on Termux from the original Ghidra source. No source modifications were made — only the binary build is redistributed here.
+
+Ghidra is © NSA and licensed under Apache 2.0. Original LICENSE and NOTICE files are included in the archive.
+
+This build is provided as-is, without warranty. Use at your own risk.
+
+I assume no responsibility for any dependency issues or functional problems that may arise from using this build.
