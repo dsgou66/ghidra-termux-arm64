@@ -1,3 +1,4 @@
+![Ghidra](GhidraBuild/Images/GHIDRA_1.png)
 # ghidra-termux-arm64
 
 Native ARM64 build of Ghidra 11.0 DEV, compiled locally on Termux (Android aarch64).
