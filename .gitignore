@@ -1,0 +1,48 @@
+# ---- 构建产物 ----
+build/
+**/build/
+/*/*/build/
+/*/*/*/build/
+/*/*/*/*/build/
+/*/*/*/*/*/build/
+/*/*/*/*/*/*/build/
+.gradle/
+**/.gradle/
+out/
+
+# ---- 编译产物 ----
+*.class
+*.o
+*.so
+*.a
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- Sleigh 编译产物 ----
+*.sla
+
+# ---- 依赖缓存（可重下）----
+dependencies/downloads/
+dependencies/GhidraDev/*.zip
+
+# ---- 构建成品 ----
+*.zip
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- 备份 ----
+*.bak
+
+# ---- IDE / 编辑器 ----
+.idea/
+*.iml
+.vscode/
+eclipse/.metadata/
+*.swp
+*~
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+
+# ---- 官方原有规则（保留）----
+**/data/build.xml
