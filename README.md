@@ -1,4 +1,8 @@
 <img src="Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png" width="400">
+
+*   Android phone with **Termux** installed (get it from [F-Droid](https://f-droid.org/packages/com.termux/) or [GitHub Releases](https://github.com/termux/termux-app/releases))
+*   A VNC client — [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) recommended
+*   About 1–2 GB of free storage for Ghidra and its dependencies
 Ghidra on Termux ARM64
 
 Native ARM64 build of Ghidra 11.0 DEV, compiled locally on Termux (Android aarch64).
