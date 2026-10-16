@@ -1,4 +1,4 @@
-![Ghidra](GhidraBuild/Images/GHIDRA_1.png)
+<img src="Ghidra/Features/Base/src/main/resources/images/GHIDRA_3.png" width="400">
 # ghidra-termux-arm64
 
 Native ARM64 build of Ghidra 11.0 DEV, compiled locally on Termux (Android aarch64).
