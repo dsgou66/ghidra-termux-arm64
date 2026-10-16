@@ -16,8 +16,13 @@ pkill -f vncserver 2>/dev/null || true
 rm -f "$PREFIX/tmp/.X1-lock" "$PREFIX/tmp/.X11-unix/X1"
 sleep 1
 
-echo ">>> Starting VNC on :1 (2400x1080)..."
-vncserver :1 -geometry 2400x1080 -depth 24
+SCREEN_RES=$(wm size 2>/dev/null | awk -F': ' '/Physical size/ {print $2}')
+if [ -z "$SCREEN_RES" ]; then
+  SCREEN_RES="1920x1080"
+fi
+
+echo ">>> Starting VNC on :1 ($SCREEN_RES)..."
+vncserver :1 -geometry "$SCREEN_RES" -depth 24
 
 export DISPLAY=:1
 
